@@ -15,6 +15,7 @@ def zamiana(n ,p):
                 print("E", end='')
             if x == 15:
                 print("F", end='')
-        print(n%p, end='')
+        else:
+            print(n%p, end='')
 
 zamiana(254, 2)
